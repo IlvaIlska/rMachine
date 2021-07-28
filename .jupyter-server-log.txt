@@ -1,0 +1,71 @@
+[I 01:08:47.989 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 2021-07-28 01:08:49.645 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-28 01:08:49.645 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-28 01:08:49.645 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-28 01:08:49.645 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-28 01:08:49.646 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-28 01:08:49.646 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-28 01:08:49.646 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-28 01:08:49.646 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-28 01:08:49.646 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-28 01:08:49.646 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-28 01:08:49.646 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-28 01:08:49.646 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-07-28 01:08:49.654 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/jupyterlab
+[I 2021-07-28 01:08:49.654 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 01:08:49.663 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/nteract_on_jupyter
+[I 01:08:49.664 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 01:08:49.665 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 01:08:49.665 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 01:08:49.665 NotebookApp] http://jupyter-ilvailska-2drmachine-2dxoh2sk5a:8888/user/ilvailska-rmachine-xoh2sk5a/?token=...
+[I 01:08:49.665 NotebookApp]  or http://127.0.0.1:8888/user/ilvailska-rmachine-xoh2sk5a/?token=...
+[I 01:08:49.665 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 01:08:49.669 NotebookApp] No web browser found: could not locate runnable browser.
+[I 01:08:52.001 NotebookApp] 302 GET /user/ilvailska-rmachine-xoh2sk5a/ (10.0.0.23) 0.890000ms
+[I 01:08:52.861 NotebookApp] 302 GET /user/ilvailska-rmachine-xoh2sk5a/?token=v89ovvqvQ12RDNbqM1A5fA (108.92.69.109) 0.850000ms
+[I 01:09:09.081 NotebookApp] Creating new notebook in 
+[I 01:09:09.094 NotebookApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[I 01:09:10.277 NotebookApp] Kernel started: 497fc182-ffa1-4f6b-9b96-a6b2170339c2, name: ir
+[I 01:09:10.278 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 01:09:10.278 NotebookApp] Culling kernels even with connected clients
+[I 01:09:11.350 NotebookApp] Adapting from protocol version 5.0 (kernel 497fc182-ffa1-4f6b-9b96-a6b2170339c2) to 5.3 (client).
+[I 01:11:10.284 NotebookApp] Saving file at /Untitled.ipynb
+[I 01:13:10.405 NotebookApp] Saving file at /Untitled.ipynb
+trying URL 'https://cran.r-project.org/src/contrib/randomForest_4.6-14.tar.gz'
+Content type 'application/x-gzip' length 80074 bytes (78 KB)
+==================================================
+downloaded 78 KB
+
+* installing *source* package ‘randomForest’ ...
+** package ‘randomForest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+x86_64-conda_cos6-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib   -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base_1591949865905/work=/usr/local/src/conda/r-base-4.0.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c classTree.c -o classTree.o
+x86_64-conda_cos6-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib   -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base_1591949865905/work=/usr/local/src/conda/r-base-4.0.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c init.c -o init.o
+x86_64-conda_cos6-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib   -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base_1591949865905/work=/usr/local/src/conda/r-base-4.0.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c regTree.c -o regTree.o
+x86_64-conda_cos6-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib   -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base_1591949865905/work=/usr/local/src/conda/r-base-4.0.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c regrf.c -o regrf.o
+x86_64-conda_cos6-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib   -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base_1591949865905/work=/usr/local/src/conda/r-base-4.0.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c rf.c -o rf.o
+x86_64-conda_cos6-linux-gnu-gfortran -fno-optimize-sibling-calls  -fpic  -fopenmp -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base_1591949865905/work=/usr/local/src/conda/r-base-4.0.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c rfsub.f -o rfsub.o
+x86_64-conda_cos6-linux-gnu-cc -I"/srv/conda/envs/notebook/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /srv/conda/envs/notebook/include -I/srv/conda/envs/notebook/include -Wl,-rpath-link,/srv/conda/envs/notebook/lib   -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /srv/conda/envs/notebook/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base_1591949865905/work=/usr/local/src/conda/r-base-4.0.1 -fdebug-prefix-map=/srv/conda/envs/notebook=/usr/local/src/conda-prefix  -c rfutils.c -o rfutils.o
+x86_64-conda_cos6-linux-gnu-cc -shared -L/srv/conda/envs/notebook/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/srv/conda/envs/notebook/lib -Wl,-rpath-link,/srv/conda/envs/notebook/lib -L/srv/conda/envs/notebook/lib -Wl,-rpath-link,/srv/conda/envs/notebook/lib -o randomForest.so classTree.o init.o regTree.o regrf.o rf.o rfsub.o rfutils.o -lgfortran -lm -lgomp -lquadmath -lpthread -L/srv/conda/envs/notebook/lib/R/lib -lR
+installing to /srv/conda/envs/notebook/lib/R/library/00LOCK-randomForest/00new/randomForest/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (randomForest)
+
+The downloaded source packages are in
+	‘/tmp/RtmpTbl5tE/downloaded_packages’
+[I 01:15:10.398 NotebookApp] Saving file at /Untitled.ipynb
+[I 01:15:50.288 NotebookApp] Saving file at /Untitled.ipynb
+[I 01:16:26.287 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
